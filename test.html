@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="https://cdn.openai.com/gpt-3.js"></script>
+<script>
+    const chatgpt = new OpenAI.ChatCompletion({
+    apiKey: 'YOUR_API_KEY'
+});
+chatgpt.create({
+  model: 'gpt-3.5-turbo',
+  messages: [
+    { role: 'system', content: 'You are a helpful assistant.' },
+    { role: 'user', content: 'Whats the weather like today?' },
+  ]
+}).then(response => {
+  const reply = response.data.choices[0].message.content;
+  // Display the reply on your website
+});
+
+</script>
+</html>

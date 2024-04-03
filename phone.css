@@ -1,0 +1,40 @@
+.nav ul{
+    display: none;
+}
+.alert{
+    font-size: 14px;
+    text-align: left;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.hero h1{
+    font-size: 80px;
+    line-height: 90px;
+    margin-left: 20px;
+}
+.hero{
+    text-align: left;
+}
+.hero p{
+    margin-left: 20px;
+}
+.hero button{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.about{
+    flex-direction: column;
+}
+.about-para{
+    margin-top: 50px;
+}
+.new-offer{
+    flex-direction: column;
+}
+.new-offer-left{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.new-offer-right{
+    margin-left: -80px;
+}

@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s;
+}
+
+body {
+    /* background: rgba(0, 0, 0, 0.13); */
+    background: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    padding-top: 50px;
+    /* padding-top: 40px; */
+    /* padding-bottom: 70px; */
+    position: fixed;
+    background: black;
+    width: 100%;
+    /* margin-top: 10px; */
+    z-index: 9;
+}
+
+.nav {
+    display: flex;
+    margin-top: -40px;
+    /* background: white; */
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 6px;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.nav ul li:hover {
+    /* text-decoration: underline; */
+    color: #116dff;
+    /* line-height: 50px; */
+}
+
+.nav button {
+    padding: 10px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: 0px;
+    background: #116dff;
+    color: white;
+    border-radius: 50px;
+
+    margin-top: -2px;
+}
+#signup:hover {
+    transform: scale(1.1);
+}
+
+.alert {
+    background: #116cff27;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    margin-bottom: -20px;
+    color: #116dff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    /* opacity: 0.9; */
+}
+
+.hero {
+    /* background: rgba(0, 0, 0, 0.13); */
+    padding-top: 170px;
+    padding-bottom: 50px;
+    /* padding-bottom: 1000px; */
+    background: rgba(0, 0, 0, 0.637) url(coding-project-1884980-1597918.webp);
+    /* background-size */
+    background-blend-mode: darken;
+    background-position: center;
+    color: white;
+
+    text-align: center;
+}
+
+.blur {
+    width: 100%;
+    /* background: black; */
+    height: 50px;
+    backdrop-filter: blur(20px);
+    margin-top: -30px;
+    filter: contrast(-2398978393847239483749876239478364897600px);
+}
+
+.hero h1 {
+    font-size: 90px;
+    line-height: 100px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.hero button {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 0px;
+    background: #116dff;
+    color: white;
+    border-radius: 50px;
+
+    margin-top: 30px;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+.about {
+    /* padding: 50px; */
+    /* text-align: center; */
+    /* width: 100%; */
+    /* margin: auto; */
+    /* background: rgba(128, 128, 128, 0.185); */
+    color: white;
+    /* border: 2px solid black; */
+    /* border-radius: 30px; */
+    /* box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.637); */
+    /* margin-left: 30px; */
+
+    margin-top: 100px !important;
+    text-align: center;
+    /* backdrop-filter: blur(10px); */
+    /* width: 90%; */
+
+    /* background: linear-gradient(to top, white, white); */
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.about span {
+    font-size: 50px;
+    color: #116dff;
+}
+
+.about p {
+    /* font-size: 25px; */
+    text-align: right;
+    /* margin-right: -50px; */
+}
+
+.new-offer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* background-color: #03594671; */
+    background-color: #03594670;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.new-offer-right {
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.new-offer-right a {
+    /* margin-top: 30px; */
+    color: white;
+}
+
+.new-offer-left {
+    font-size: 30px;
+}
+
+
+
+/* latest posts */
+.latest-posts {
+    margin-top: 50px !important;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
+
+    /* position: relative;
+    left: 50px; */
+
+    width: 90%;
+    border-radius: 15px;
+}
+
+.first {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.644);
+    color: white;
+    padding-top: 100px;
+}
+
+.second {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.644);
+    color: white;
+    padding-top: 100px;
+}
+
+.third {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.644);
+    color: white;
+    padding-top: 100px;
+}
+.btn{
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border: 0px;
+    background: #116cff71;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.281);
+    color: white;
+}
+
+
+
+/* services.html */
+.service_boxes{
+    /* background: black; */
+    color: white;
+    padding-top: 190px;
+    display: flex;
+    justify-content: center;
+}
+.left_box{
+    padding: 0px;
+    margin: 10px;
+    background: black;
+    border-radius: 15px;
+}
+.left_box img{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px / 15px 15px 0px 0px;
+}
+.left_box h2{
+    padding: 20px;
+}
+.left_box button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    background: #03594670;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+.right_box{
+    padding: 0px;
+    margin: 10px;
+    background: black;
+    border-radius: 15px;
+}
+.right_box img{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px / 15px 15px 0px 0px;
+}
+.right_box h2{
+    padding: 20px;
+}
+.right_box button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    background: #03594670;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/* about.html */
+.about_html{
+    padding-top: 200px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.about_html hr{
+    width: 100px;
+    height: 3px;
+    margin-top: 10px;
+    background: white;
+    border: 0;
+    justify-content: center;
+}
+.about_html h1{
+    font-size: 60px;
+}
+.about-para_html{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+/* contact.html */
